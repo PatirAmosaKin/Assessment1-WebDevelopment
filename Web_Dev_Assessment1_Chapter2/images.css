@@ -1,0 +1,29 @@
+body {
+    position: relative; /* Positioning content */
+    color: black; /* Text color */
+    font-family: Arial, sans-serif; 
+}
+
+body::before {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('Fire_emblem_3_houseds.png'); /*  background image */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-attachment: fixed;
+    background-size: cover; /* Cover the entire area */
+    opacity: 0.7; /* Set the desired opacity */
+    pointer-events: none; /* Allow clicks to pass through */
+    z-index: -1; /* Place it behind other content */
+    background-blend-mode: lighten;
+}
+
+
+h1 {
+    position: relative; 
+    z-index: 1; 
+}

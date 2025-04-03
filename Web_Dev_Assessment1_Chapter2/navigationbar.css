@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'CustomFont'; /* Name for the custom font */
+    src: url('gabriola-font.ttf') format('truetype'); /* Path to the custom font file */
+    
+}
+
+body {
+    margin: 0; /* Remove default margin */
+}
+
+.navigation {
+    background-color: rgb(55, 30, 22);
+    position: fixed; /* Keep the navigation bar fixed at the top */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align it to the left */
+    right: 0; /* Align it to the right */
+    z-index: 1000; /* Ensure it stays above other content */
+    height: 60px; /* fixed height for the navbar */
+    margin: auto;
+}
+
+.navigation ul {
+    overflow: auto;
+    padding: 10px;
+    margin: 0; /* Remove margin */
+}
+
+.navigation li {
+    float: left; /* Align list items horizontally */
+}
+
+.navigation ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'CustomFont';
+}
+
+.navbar a:hover {
+    background-color: hsl(0, 0%, 10%);
+} 
+
+
+
+header, h1, h2, h3, h4, h5, p, li, ul {
+    padding: 10px;
+    font-family: 'CustomFont';
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+/* This one is for margin-top to sections to prevent them from being hidden behind the fixed navbar */
+section {
+    margin-top: 0px; 
+}

@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #000000;
+}
+  
+h1, h2 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+}
+  
+p, li {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: '-';
+}
+  
+
+header {
+    background-color: #17072b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+  
+.navigation {
+    background-color: #17072b;
+}
+  
+.navigation ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.navigation li {
+    margin: 0 15px;
+}
+  
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+.navigation a:hover {
+    color: #d6b5f5;
+}
+  
+
+main {
+    padding: 20px;
+}
+  
+.welcome-section {
+    margin-top: 40px;
+}
+  
+.welcome-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+  
+.welcome-content img {
+    max-width: 300px;
+    height: auto;
+}
+  
+
+#lineup {
+    margin-top: 40px;
+}
+  
+.lineup-images {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+  
+.lineup-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+  
+
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+} 

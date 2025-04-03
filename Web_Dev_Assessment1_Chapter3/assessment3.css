@@ -1,0 +1,16 @@
+h1 {
+    margin-top: 50px; /* spacing in between the headers */
+}
+
+h2 {
+    margin-top: 50px; /* spacing in between the headers */
+}
+
+img {
+    filter: grayscale(100%); /* filters the images into black and white */
+    transition: filter 0.5s;
+}
+
+img:hover {
+    filter: none; /* removes the filter until the cursor hovers away from an image */
+}
