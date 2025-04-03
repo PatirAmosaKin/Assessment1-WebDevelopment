@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Guessing Game</title>
+    <link rel="stylesheet" href="assessment6bonus.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>RGB Color Guessing Game</h1>
+        
+        <div class="rgb-value">
+            <p>Guess the RGB value:</p>
+            <span id="rgb-value"></span>
+        </div>
+        
+        <div class="color-options">
+            <button class="color-option" id="color1"></button>
+            <button class="color-option" id="color2"></button>
+            <button class="color-option" id="color3"></button>
+        </div>
+        
+        <div class="game-info">
+            <p>Lives: <span id="lives">5</span></p>
+            <p>Score: <span id="score">0</span></p>
+        </div>
+
+        <div id="game-over" class="game-over">
+            <h2>Game Over!</h2>
+            <p>Your Final Score: <span id="final-score">0</span></p>
+            <button id="replay-btn">Replay</button>
+        </div>
+    </div>
+
+    <script src="assessment6bonus.js"></script>
+</body>
+</html>
